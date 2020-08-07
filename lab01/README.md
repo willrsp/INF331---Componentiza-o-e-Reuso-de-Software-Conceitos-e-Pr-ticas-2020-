@@ -1,32 +1,40 @@
 # Projeto Orange / Regras de Associação para Foodmart
 
 ## Imagem do Projeto
-> Coloque uma imagem da captura de tela com o projeto do Orange.
+
+![Image do Projeto Orange Foodmart](images/ProjOrangeFoodMart.png)
 
 ## Arquivo do Projeto
-> Coloque um link para o arquivo em Orange.
+
+[Projeto Orange Foodmart](orange/FoodMart/foodmart-project.ows)
 
 # Projeto Orange / Análise de Dados do Google PlayStore
 
 ## Imagem do Projeto
-> Coloque uma imagem da captura de tela com o projeto do Orange.
+
+![Image do Projeto Orange Foodmart](images/ProjOrangePlaystore.png)
 
 ## Arquivo do Projeto
-> Coloque um link para o arquivo em Orange.
+
+[Projeto Orange Google PlayStore](orange/Google Play Store/google-playstore-project.ows)
 
 ## Gráfico(s) de Análise
-> Apresente a seguir o(s) gráfico(s) de análise produzidos (se houver) com legendas.
+
+![Image Distribuição por categoria](images/DistByCat.png)
+![Image Distribuição por Content Rating](images/DistByCont.png)
+![Image Distribuição por Rating](images/DistByRat.png)
+![Image grupos aplicativos por tipo](images/SilhouettePlot.png)
 
 # Projeto de Composição de Componentes para Recomendação
 
-> Imagem (`PNG`) do diagrama de componentes (veja exemplos abaixo).
+![Image grupos aplicativos por tipo](images/Lab1_TarefaRecomendação.png)
 
 # Projeto de Composição de Componentes para Pedido
 
 ## Diagrama de Componentes
 
-> Imagem (`PNG`) do diagrama de componentes do pedido de um produto (veja exemplos abaixo).
+![Image grupos aplicativos por tipo](images/Lab1_TarefaPedido.png)
 
 ## Diagrama de Interfaces
 
-> Imagem (`PNG`) do detalhamento de interfaces referentes aos componentes.
+![Image grupos aplicativos por tipo](images/Lab1_Interfaces.png)
