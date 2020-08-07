@@ -1,3 +1,11 @@
+# Equipe
+	
+	William R Dos S Pereira
+
+# Apresentação do Lab01 - Data Flow
+	
+	Disciplina: INF331 - Componentização e Reuso de Software Conceitos e Práticas (2020)
+	
 # Projeto Orange / Regras de Associação para Foodmart
 
 ## Imagem do Projeto
