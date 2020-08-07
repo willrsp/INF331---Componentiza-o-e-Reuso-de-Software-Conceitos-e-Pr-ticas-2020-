@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(94.0, -61.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="Google Playstore Dataset" version="" />
+		<node id="1" name="Distributions" position="(534.0, 135.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" title="Distributions" version="" />
+		<node id="2" name="Silhouette Plot" position="(540.0, 261.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owsilhouetteplot.OWSilhouettePlot" title="Silhouette Plot" version="" />
+		<node id="3" name="Data Table" position="(468.0, -99.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="4" name="Select Rows" position="(254.0, 16.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" title="Rating &gt; 4.2 and Install &gt; 1000K" version="" />
+		<node id="5" name="Data Table" position="(530.0, 10.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Filter Data Table " version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="5" source_channel="Matching Data" source_node_id="4" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="1" source_channel="Matching Data" source_node_id="4" />
+		<link enabled="true" id="4" sink_channel="Data" sink_node_id="2" source_channel="Matching Data" source_node_id="4" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [('C:/Users/William/Desktop/UNICAMP - INF300 - Engenharia de Software/INF331 - Componentização e Reuso de Software Conceitos e Práticas (2020)/lab01/orange/Google Play Store/Google-Playstore-32K.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/William/Desktop/UNICAMP - INF300 - Engenharia de Software/INF331 - Componentização e Reuso de Software Conceitos e Práticas (2020)/lab01/Google Play Store/orange/Google-Playstore-32K.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('/home/santanche/git/lab2learn/machine-learning/google-playstore/Google-Playstore-32K.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('/home/marcosf/Downloads/157336_360692_compressed_Google-Playstore-32K.csv/Google-Playstore-32K.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Auto'}, {'start': 2, 'stop': 4, 'value': 'Numeric'}, {'start': 4, 'stop': 6, 'value': 'Categorical'}, {'start': 6, 'stop': 7, 'value': 'Numeric'}, {'start': 7, 'stop': 8, 'value': 'Categorical'}, {'start': 8, 'stop': 9, 'value': 'Skip'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/William/Desktop/UNICAMP - INF300 - Engenharia de Software/INF331 - Componentização e Reuso de Software Conceitos e Práticas (2020)/lab01/orange/Google Play Store', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03C\x00\x00\x00R\x00\x00\x04\x8b\x00\x00\x01\xc6\x00\x00\x03D\x00\x00\x00x\x00\x00\x04\x8a\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03D\x00\x00\x00x\x00\x00\x04\x8a\x00\x00\x01\xc5', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAoAAABhdXRvX2FwcGx5cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEAAAAGN1
+bXVsYXRpdmVfZGlzdHJxA4lYEwAAAGZpdHRlZF9kaXN0cmlidXRpb25xBEsAWAkAAABoaWRlX2Jh
+cnNxBYlYDQAAAGtkZV9zbW9vdGhpbmdxBksKWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDQgHZ
+0MsAAwAAAAAB9AAAAOQAAAWLAAADIQAAAfQAAADkAAAFiwAAAyEAAAAAAAAAAAeAAAAB9AAAAOQA
+AAWLAAADIXEIWAoAAABzaG93X3Byb2JzcQmJWA8AAABzdGFja2VkX2NvbHVtbnNxColYCwAAAF9f
+dmVyc2lvbl9fcQtLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EMXXENY29yYW5nZXdpZGdldC5zZXR0
+aW5ncwpDb250ZXh0CnEOKYFxD31xEChYBgAAAHZhbHVlc3ERfXESKFgEAAAAY3ZhcnETTkr+////
+hnEUWA4AAABudW1iZXJfb2ZfYmluc3EVSwBK/v///4ZxFlgJAAAAc2VsZWN0aW9ucRdjYnVpbHRp
+bnMKc2V0CnEYXXEZhXEaUnEbSv7///+GcRxYAwAAAHZhcnEdWA4AAABDb250ZW50IFJhdGluZ3Ee
+S2WGcR9oC0sBdVgKAAAAYXR0cmlidXRlc3EgfXEhKFgIAAAAQ2F0ZWdvcnlxIksBWAYAAABSYXRp
+bmdxI0sCWAcAAABSZXZpZXdzcSRLAlgIAAAASW5zdGFsbHNxJUsBWAUAAABQcmljZXEmSwJoHksB
+WAwAAABMYXN0IFVwZGF0ZWRxJ0sEdVgFAAAAbWV0YXNxKH1xKShYCAAAAEFwcCBOYW1lcSpLA1gE
+AAAAU2l6ZXErSwN1dWJhdS4=
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgIAAAAYmFyX3NpemVxAksKWBIAAABjb250cm9sQXJl
+YVZpc2libGVxA4hYDAAAAGRpc3RhbmNlX2lkeHEESwFYEAAAAGdyb3VwX2J5X2NsdXN0ZXJxBYhY
+EQAAAHBlbmRpbmdfc2VsZWN0aW9ucQZdcQdjbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpx
+CGNudW1weQpkdHlwZQpxCVgCAAAAaTRxCksASwGHcQtScQwoSwNYAQAAADxxDU5OTkr/////Sv//
+//9LAHRxDmJDBOIIAABxD4ZxEFJxEWFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxEkNCAdnQywAD
+AAAAAAJFAAAAjwAABggAAAOFAAACRgAAALUAAAYHAAADhAAAAAAAAAAAB4AAAAJGAAAAtQAABgcA
+AAOEcRNYCwAAAF9fdmVyc2lvbl9fcRRLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EVXXEWY29yYW5n
+ZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0CnEXKYFxGH1xGShYBgAAAHZhbHVlc3EafXEbKFgSAAAA
+YW5ub3RhdGlvbl92YXJfaWR4cRxLAUr+////hnEdWA8AAABjbHVzdGVyX3Zhcl9pZHhxHksASv7/
+//+GcR9oFEsBdVgKAAAAYXR0cmlidXRlc3EgWAgAAABDYXRlZ29yeXEhSwGGcSJYCAAAAEluc3Rh
+bGxzcSNLAYZxJFgOAAAAQ29udGVudCBSYXRpbmdxJUsBhnEmh3EnWAUAAABtZXRhc3EoKVgKAAAA
+Y2xhc3NfdmFyc3EpKXViYXUu
+</properties>
+		<properties format="literal" node_id="3">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05', 'select_rows': True, 'selected_cols': [0, 1, 2, 3, 4, 5, 6, 7, 8], 'selected_rows': [29731], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBAAAABw
+dXJnZV9hdHRyaWJ1dGVzcQOJWA0AAABwdXJnZV9jbGFzc2VzcQSJWBMAAABzYXZlZFdpZGdldEdl
+b21ldHJ5cQVDQgHZ0MsAAwAAAAAClAAAATsAAATrAAACygAAApQAAAE7AAAE6wAAAsoAAAAAAAAA
+AAeAAAAClAAAATsAAATrAAACynEGWBAAAAB1cGRhdGVfb25fY2hhbmdlcQeIWAsAAABfX3ZlcnNp
+b25fX3EISwJYEAAAAGNvbnRleHRfc2V0dGluZ3NxCV1xCmNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MK
+Q29udGV4dApxCymBcQx9cQ0oWAYAAAB2YWx1ZXNxDn1xDyhYCgAAAGNvbmRpdGlvbnNxEF1xESgo
+WAYAAABSYXRpbmdxEksCSwRdcRNHQBDMzMzMzM1hdHEUKFgIAAAASW5zdGFsbHNxFUsBSwJdcRYo
+WAoAAAAxLDAwMCwwMDArcRdYDgAAADEsMDAwLDAwMCwwMDArcRhYCwAAADEwLDAwMCwwMDArcRlY
+DAAAADEwMCwwMDAsMDAwK3EaWAoAAAA1LDAwMCwwMDArcRtYDgAAADUsMDAwLDAwMCwwMDArcRxY
+CwAAADUwLDAwMCwwMDArcR1YDAAAADUwMCwwMDAsMDAwK3EeZXRxH2VoCEsCdVgKAAAAYXR0cmli
+dXRlc3EgfXEhKFgIAAAAQ2F0ZWdvcnlxIksBaBJLAlgHAAAAUmV2aWV3c3EjSwJoFUsBWAUAAABQ
+cmljZXEkSwJYDgAAAENvbnRlbnQgUmF0aW5ncSVLAVgMAAAATGFzdCBVcGRhdGVkcSZLBHVYBQAA
+AG1ldGFzcSd9cSgoWAgAAABBcHAgTmFtZXEpSwNYBAAAAFNpemVxKksDdXViYXUu
+</properties>
+		<properties format="literal" node_id="5">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x07\x7f\x00\x00\x04\x05', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
