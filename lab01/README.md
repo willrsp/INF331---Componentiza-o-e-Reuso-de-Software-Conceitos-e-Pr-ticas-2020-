@@ -16,7 +16,7 @@
 
 ## Arquivo do Projeto
 
-[Projeto Orange Google PlayStore](orange/Google Play Store/google-playstore-project.ows)
+[Projeto Orange Google PlayStore](orange/GooglePlayStore/google-playstore-project.ows)
 
 ## Gráfico(s) de Análise
 
@@ -27,7 +27,7 @@
 
 # Projeto de Composição de Componentes para Recomendação
 
-![Image grupos aplicativos por tipo](images/Lab1_TarefaRecomendação.png)
+![Image grupos aplicativos por tipo](images/Lab1_TarefaRecomendacao.png)
 
 # Projeto de Composição de Componentes para Pedido
 
