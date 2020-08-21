@@ -2,8 +2,8 @@
 
 
 ## Tarefa 1
- 
-![Diagrama de Orquestração](images/Tarefa1.png)
+
+![Diagrama de Orquestração](images/Tarefa01.png)
 
 ## Tarefa 2
 
@@ -14,7 +14,7 @@
 <p>5. Os tres menores preços serão apresentados e obedecendo o critério de classificação/desempate. (Forncedor com menor preço)</p>
 <p>6. O código de rastreio será enviado após a escolha do fornecedor. (Código Rastreio)</p>
 
-![Diagrama de Coreografia](images/Tarefa2.png)
+![Diagrama de Coreografia](images/Tarefa02.png)
 
 ## Tarefa 3 
  * tela 1 - nenhum produto selecionado
