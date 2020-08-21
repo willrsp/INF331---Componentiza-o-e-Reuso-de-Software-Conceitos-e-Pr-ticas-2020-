@@ -21,23 +21,29 @@
  
 ![Produto não selecionado](images/ProdEmpty.jpeg)
 
- tela 2 - produto geladeira selecionado
+ * tela 2 - produto geladeira selecionado
+ 
 ![Produto Geladeira](images/ProdGeladeira.jpeg)
 
- tela 3 - produto celular selecionado
+ * tela 3 - produto celular selecionado
+ 
 ![Produto Celular](images/ProdCelular.jpeg)
 
- tela 4 - produto notebook selecionado
+ * tela 4 - produto notebook selecionado
+ 
 ![Produto Notebook](images/ProdNotebook.jpeg)
 
- tela 5 - compra de um dos produtos efetiva
+ * tela 5 - compra de um dos produtos efetiva
+ 
 ![Compra do produto](images/CompraEfetuada.jpeg)
 
- tela 6 - diagrama de blocos do aplicativo
+ * tela 6 - diagrama de blocos do aplicativo
+ 
 ![Diagrama de blocos](images/block1.png)
+
 ![Diagrama de blocos](images/block2.png)
 
- Link para o arquivo do aplicativo exportado a partir do MIT App Inventor em formato `aia`.
+ * Link para o arquivo do aplicativo exportado a partir do MIT App Inventor em formato `aia`.
 [Projeto MIT App Inventor](app/ProjectTarefa4.aia)
 
 ## Tarefa 4
