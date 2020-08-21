@@ -17,7 +17,8 @@
 ![Diagrama de Coreografia](images/Tarefa02.png)
 
 ## Tarefa 3 
- tela 1 - nenhum produto selecionado
+ * tela 1 - nenhum produto selecionado
+ 
 ![Produto não selecionado](images/ProdEmpty.jpeg)
 
  tela 2 - produto geladeira selecionado
