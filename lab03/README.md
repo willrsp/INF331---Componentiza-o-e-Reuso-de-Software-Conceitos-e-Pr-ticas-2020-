@@ -39,9 +39,9 @@
 
  * tela 6 - diagrama de blocos do aplicativo
  
-![Diagrama de blocos](images/block1.png)
+![Diagrama de blocos1](images/block1.PNG)
 
-![Diagrama de blocos](images/block2.png)
+![Diagrama de blocos2](images/block2.PNG)
 
  * Link para o arquivo do aplicativo exportado a partir do MIT App Inventor em formato `aia`.
 [Projeto MIT App Inventor](app/ProjectTarefa4.aia)
