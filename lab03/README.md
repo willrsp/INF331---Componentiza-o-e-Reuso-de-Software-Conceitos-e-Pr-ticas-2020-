@@ -41,7 +41,7 @@
  
 ![Diagrama de blocos1](images/block01.jpg)
 
-
+![Diagrama de blocos2](images/block02.jpg)
 
  * Link para o arquivo do aplicativo exportado a partir do MIT App Inventor em formato `aia`.
 [Projeto MIT App Inventor](app/ProjectTarefa4.aia)
